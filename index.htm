@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>K-M Convension Center</title>
 
+    <!-- Custom CSS Link -->
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS Link -->
 
@@ -68,10 +71,10 @@
                 width="1440"
                 alt="..."
               />
-                <div class="carousel-caption">
+                <div class="carousel-caption mb-5">
                     <h1> The perfect venue for your next marriage events </h1> 
                     <p>
-                    Some representative placeholder content for the first slide.
+                    We provide the best marriage event designs and food's here are also world class
                     </p>
                     <button type="button" class="btn btn-primary bg-white text-primary fw-bold px-4 fs-6">Book Now</button>
                 </div>
@@ -84,10 +87,10 @@
                 width="1440"
                 alt="..."
               />
-                <div class="carousel-caption">
-                    <h1> The perfect venue for your next event</h1>
+                <div class="carousel-caption mb-5">
+                    <h1> The perfect venue for your next Business fair</h1>
                     <p>
-                    Some representative placeholder content for the second slide.
+                    We have ability to provide any type of help for any type of business fairs and we are able to give people a professional flavour of environment
                     </p>
                     <button type="button" class="btn btn-primary bg-white text-primary fw-bold px-4 fs-6">Book Now</button>
                 </div>
@@ -100,10 +103,10 @@
                 width="1440"
                 alt="..."
               />
-                <div class="carousel-caption">
-                    <h1>The perfect venue for your next event</h1>
+                <div class="carousel-caption mb-5">
+                    <h1>The perfect venue for your next Corporate event</h1>
                     <p>
-                    Some representative placeholder content for the third slide.
+                    We maintain high class profile and the professional way of providing services.
                     </p>
                     <button type="button" class="btn btn-primary bg-white text-primary fw-bold px-4 fs-6">Book Now</button>
                 </div>
@@ -131,21 +134,29 @@
     </header>
 
     <main>
-        <!-- Convension Center Review -->
+
+        <!-- A Toast message -->
+
+        <section>
+            <div class="d-flex justify-content-end">
+                <div class="toast show border-primary border-5 border-end-0 border-top-0 border-bottom-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            20% off on next booking.
+                        </div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Convension Center About -->
+
         <section class="container my-5 py-5">
             <h1 class="text-center fw-bold">Know About Us</h1>
-            <div class="d-flex align-items-center">
+            <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="m-5">
-                    <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/ZblxsJIL4e0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; 
-                    encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    ></iframe>
+                    <img src="images/the-convension-hall.jpg" alt="">
                 </div>
                 <div class="m-5">
                     <h3>K-M Convension Center</h3>
@@ -156,13 +167,13 @@
             </div>
         </section>
 
-        <!-- Our Packge Cards -->
+        <!-- Our Packges -->
 
         <section class="container">
             <h1 class="text-center fw-bold my-5">Our Packge</h1>
             <div class="row">
                 <div class="col-sm-3">
-                    <div class="card rounded-3 bg-white border-white my-5">
+                    <div class="card bg-white border-white my-5">
                       <div class="card-body">
                           <h1>$300</h1>
                         <h3 class="card-title">Business fair</h2>
@@ -174,13 +185,13 @@
                         <p> <span><i class="fas fa-check-circle"></i></span> Decoration design </p>
                         <p> <span><i class="fas fa-check-circle"></i></span> Per day bill </p>
                         <div class="card-footer bg-transparent border-white d-flex justify-content-center">
-                          <a href="#" class="btn btn-primary px-5 py-2 rounded-pill">Choose plan</a>
+                          <a href="#" class="btn btn-light km-background text-primary fw-bold px-5 py-2 rounded-pill">Choose plan</a>
                         </div>
                       </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                  <div class="card rounded-3 bg-white border-white my-5">
+                  <div class="card bg-white border-white my-5">
                     <div class="card-body">
                         <h1>$500</h1>
                       <h3 class="card-title">Wedding basic</h2>
@@ -192,13 +203,13 @@
                       <p> <span><i class="fas fa-check-circle"></i></span> Decoration design</p>
                       <p> <span><i class="fas fa-check-circle"></i></span> Billed as shift</p>
                       <div class="card-footer bg-transparent border-white d-flex justify-content-center">
-                        <a href="#" class="btn btn-primary px-5 py-2 rounded-pill">Choose plan</a>
+                        <a href="#" class="btn btn-light km-background text-primary fw-bold px-5 py-2 rounded-pill">Choose plan</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-3">
-                  <div class="card rounded-3 bg-primary text-white border-none my-5 shadow-lg p-3 mb-5">
+                <div class="col-sm-3 pb-5">
+                  <div class="km-card bg-primary text-white my-5 shadow-lg p-3 mb-5 mt-0">
                     <div class="card-body">
                         <h1>$800</h1>
                       <h3 class="card-title">Wedding plus</h2>
@@ -210,7 +221,7 @@
                       <p> <span><i class="fas fa-check-circle"></i></span> premium Decoration </p>
                       <p> <span><i class="fas fa-check-circle"></i></span> pay as plan</p>
                       <div class="card-footer bg-transparent border-primary d-flex justify-content-center">
-                        <a href="#" class="btn btn-primary px-5 py-2 rounded-pill bg-white text-primary fw-bold">Choose plan</a>
+                        <a href="#" class="btn btn-light km-background text-primary fw-bold px-5 py-2 rounded-pill bg-white">Choose plan</a>
                       </div>
                     </div>
                     <span class="position-absolute top-0 end-0 px-2 translate-middle badge rounded-pill bg-danger">
@@ -218,7 +229,7 @@
                   </div>
                 </div>
                 <div class="col-sm-3">
-                  <div class="card rounded-3 bg-white border-white my-5">
+                  <div class="card bg-white border-white my-5 km-border">
                     <div class="card-body">
                         <h1>$1200</h1>
                       <h3 class="card-title">Corporate event</h2>
@@ -231,7 +242,7 @@
                         <p> <span><i class="fas fa-check-circle"></i></span> premium Decoration </p>
                         <p> <span><i class="fas fa-check-circle"></i></span> pay as plan</p>
                       <div class="card-footer bg-transparent border-white d-flex justify-content-center">
-                        <a href="#" class="btn btn-primary px-5 py-2 rounded-pill">Choose plan</a>
+                        <a href="#" class="btn btn-light km-background text-primary fw-bold px-5 py-2 rounded-pill">Choose plan</a>
                       </div>
                     </div>
                   </div>
@@ -247,7 +258,7 @@
 
                 <!-- Questions -->
 
-            <div class="">
+            <div class="d-flex align-items-center">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
@@ -303,7 +314,7 @@
             <!-- Image -->
 
             <div class="w-100 p-3">
-                <img src="images/people.png" class="img-fluid" alt="...">
+                <img src="images/asked-questions.png" class="img-fluid" alt="...">
             </div>
 
             </div>
