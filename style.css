@@ -1,3 +1,5 @@
+/* Google-Font's */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
@@ -12,8 +14,4 @@
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 2rem;
   box-shadow: 10px 20px 10px 5px rgb(193, 214, 255);
-}
-
-.km-background{
-    color: #F496D1;
 }
